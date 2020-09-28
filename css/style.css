@@ -1,0 +1,62 @@
+.box {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.h50 {
+  height:50px;
+}
+
+.h100 {
+  height:100px;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+/* Header */
+
+/* Navbar */
+.nav-top {
+  background: #2c3e50;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 300px;
+  background: #1abc9c;
+}
+
+/* Portfolio */
+
+/* About */
+.about {
+  height:300px;
+  background: #1abc9c;
+}
+
+/* Footer */
+
+/* References */
+.references {
+  background: #2c3e50;
+}
+
+/* Copyright */
+.copyright {
+  background: #1a252f;
+}
