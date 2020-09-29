@@ -26,6 +26,14 @@ p {
   border-radius: 8px;
 }
 
+.btn-primary {
+  background: #1abc9c;
+}
+
+.btn-primary:hover {
+  background: #0e7e77;
+}
+
 .btn-white {
   border: 2px solid #fff;
 }
@@ -96,6 +104,20 @@ p {
 
 .about h2 {
   color: #fff;
+}
+
+/* Contact */
+.register-form {
+  margin: 30px 0;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form textarea {
+  border: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
 }
 
 /* Footer */
