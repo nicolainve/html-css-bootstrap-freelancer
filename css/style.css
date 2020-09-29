@@ -1,11 +1,38 @@
 body {
   padding-top: 70px;
+  font-family: 'Lato', sans-serif;
 }
 
 .h2, h2 {
 	font-size: 40px;
   font-weight: 700;
   color: #2c3e50;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  border: 2px solid transparent;
+  padding: 10px 35px;
+  font-size: 20px;
+  line-height: 45px;
+  border-radius: 8px;
+}
+
+.btn-white {
+  border: 2px solid #fff;
+}
+
+.btn-white:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 /* Header */
@@ -41,7 +68,6 @@ body {
 /* Jumbotron */
 .jumbotron {
   background: #1abc9c;
-  color: #fff;
 }
 
 .jumbotron img {
@@ -51,10 +77,6 @@ body {
 .jumbotron h1 {
   font-weight: 700;
   color: #fff;
-}
-
-.jumbotron p {
-  font-size: 25px;
 }
 
 /* Portfolio */
@@ -68,8 +90,12 @@ body {
 
 /* About */
 .about {
-  height:300px;
   background: #1abc9c;
+  padding: 20px 0;
+}
+
+.about h2 {
+  color: #fff;
 }
 
 /* Footer */
