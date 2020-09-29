@@ -9,6 +9,12 @@ body {
   color: #2c3e50;
 }
 
+h4 {
+  color: #fff;
+  font-size: 25px;
+  font-style: 700;
+}
+
 p {
   color: #fff;
   font-size: 20px;
@@ -127,7 +133,17 @@ p {
   background: #2c3e50;
 }
 
+.references li a {
+  color: #fff;
+}
+
 /* Copyright */
 .copyright {
   background: #1a252f;
+}
+
+.copyright span {
+  color: #fff;
+  line-height:50px;
+  font-size: 12px;
 }
